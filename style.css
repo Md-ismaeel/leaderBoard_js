@@ -17,6 +17,10 @@ body {
 main {
   height: auto;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 h1 {
@@ -28,7 +32,7 @@ h1 {
   font-variant: small-caps;
 }
 #container {
-  width: 100%;
+  width: 80%;
   display: flex;
   margin-top: 2%;
   justify-content: center;
@@ -38,7 +42,7 @@ h1 {
 
 input {
   font-size: 16px;
-  width: 11rem;
+  width: 12.2rem;
   height: 2.5rem;
   padding: 0px 15px;
   outline: 0;
@@ -51,7 +55,7 @@ input:hover {
 }
 
 #play {
-  width: 10rem;
+  width: 11rem;
   height: 2.5rem;
   padding: 0px 10px;
   background-color: hsl(180, 100%, 27%);
@@ -69,16 +73,18 @@ input:hover {
 }
 
 #player-list {
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin-top: 1rem;
   gap: 1rem;
+  margin-bottom: 2rem;
 }
 
 #player-list li {
-  min-width: 72.5%;
+  min-width: 100%;
   min-height: 5rem;
   display: flex;
   align-items: center;
@@ -133,6 +139,10 @@ input:hover {
   main {
     height: auto;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   h1 {
@@ -144,7 +154,7 @@ input:hover {
     font-variant: small-caps;
   }
   #container {
-    width: 100%;
+    width: 80%;
     display: flex;
     margin-top: 8%;
     flex-direction: column;
@@ -155,14 +165,14 @@ input:hover {
 
   input {
     font-size: 16px;
-    width: 14rem;
+    width: 16rem;
     height: 2.5rem;
     padding: 0px 10px;
     outline: 0;
   }
 
   #play {
-    width: 14rem;
+    width: 16rem;
     height: 2.5rem;
     padding: 0px 10px;
     outline: 0;
@@ -173,6 +183,7 @@ input:hover {
   }
 
   #player-list {
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -182,7 +193,7 @@ input:hover {
   }
 
   #player-list li {
-    width: 72.5%;
+    width: 100%;
     min-height: 15rem;
     display: flex;
     align-items: center;
@@ -224,6 +235,10 @@ input:hover {
   main {
     height: auto;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   h1 {
@@ -235,7 +250,7 @@ input:hover {
     font-variant: small-caps;
   }
   #container {
-    width: 100%;
+    width: 80%;
     display: flex;
     margin-top: 8%;
     flex-direction: column;
@@ -246,14 +261,14 @@ input:hover {
 
   input {
     font-size: 16px;
-    width: 17rem;
+    width: 19rem;
     height: 2.5rem;
     padding: 0px 10px;
     outline: 0;
   }
 
   #play {
-    width: 17rem;
+    width: 19rem;
     height: 2.5rem;
     padding: 0px 10px;
     outline: 0;
@@ -264,6 +279,7 @@ input:hover {
   }
 
   #player-list {
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -273,7 +289,7 @@ input:hover {
   }
 
   #player-list li {
-    width: 72.5%;
+    width: 100%;
     height: 15rem;
     display: flex;
     align-items: center;
@@ -314,6 +330,10 @@ input:hover {
   main {
     height: auto;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   h1 {
@@ -325,7 +345,7 @@ input:hover {
     font-variant: small-caps;
   }
   #container {
-    width: 100%;
+    width: 80%;
     display: flex;
     margin-top: 8%;
     flex-direction: column;
@@ -336,14 +356,14 @@ input:hover {
 
   input {
     font-size: 16px;
-    width: 19rem;
+    width: 21rem;
     height: 2.5rem;
     padding: 0px 10px;
     outline: 0;
   }
 
   #play {
-    width: 19rem;
+    width: 21rem;
     height: 2.5rem;
     padding: 0px 10px;
     outline: 0;
@@ -354,6 +374,7 @@ input:hover {
   }
 
   #player-list {
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -363,7 +384,7 @@ input:hover {
   }
 
   #player-list li {
-    width: 72.5%;
+    width: 100%;
     height: 15rem;
     display: flex;
     align-items: center;
@@ -404,6 +425,10 @@ input:hover {
   main {
     height: auto;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   h1 {
@@ -415,25 +440,25 @@ input:hover {
     font-variant: small-caps;
   }
   #container {
-    width: 100%;
+    width: 90%;
     display: flex;
     margin-top: 8%;
     /* flex-direction: column; */
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 10px;
   }
 
   input {
     font-size: 16px;
-    width: 7rem;
+    width: 8rem;
     height: 2.5rem;
     padding: 0px 10px;
     outline: 0;
   }
 
   #play {
-    width: 7rem;
+    width: 8rem;
     height: 2.5rem;
     padding: 0px 10px;
     outline: 0;
@@ -444,6 +469,7 @@ input:hover {
   }
 
   #player-list {
+    width: 88%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -453,7 +479,7 @@ input:hover {
   }
 
   #player-list li {
-    width: 81%;
+    width: 100%;
     min-height: 6rem;
     display: flex;
     align-items: center;
@@ -478,23 +504,6 @@ input:hover {
     height: 2.5rem;
     font-size: 18px;
     cursor: pointer;
-  }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  #player-list li {
-    min-width: 90%;
-    height: 5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: darkcyan;
-    list-style: none;
-    gap: 1rem;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 0rem 2rem;
-    transition: all 0.3s;
   }
 }
 

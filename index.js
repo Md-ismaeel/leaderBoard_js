@@ -59,7 +59,7 @@ function clear() {
   document.getElementById("score").value = "";
 }
 function deleteScoreHandler(index) {
-  playersList[index].score = 0;
+  playersList.splice(index, 1);
   updatePlayerList();
 }
 
@@ -71,6 +71,8 @@ function increaseScoreHandler(index) {
 function decreaseScoreHandler(index) {
   if (playersList[index].score <= 0) {
     playersList[index].score = 0;
+    alert("Action Not Possible");
+    // return;
   } else {
     playersList[index].score -= 5;
     updatePlayerList();

@@ -1,17 +1,17 @@
 const playersList = [
   {
     name: "Rocky",
-    country: "india",
+    country: "India",
     score: 80,
   },
   {
-    name: "ismail",
-    country: "india",
+    name: "Ismail",
+    country: "India",
     score: 90,
   },
   {
     name: "JackJobs",
-    country: "india",
+    country: "India",
     score: 70,
   },
 ];

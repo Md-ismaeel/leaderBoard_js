@@ -193,7 +193,7 @@ input:hover {
   }
 
   #player-list li {
-    width: 100%;
+    width: 16rem;
     min-height: 15rem;
     display: flex;
     align-items: center;
@@ -289,7 +289,7 @@ input:hover {
   }
 
   #player-list li {
-    width: 100%;
+    width: 19rem;
     height: 15rem;
     display: flex;
     align-items: center;
@@ -384,7 +384,7 @@ input:hover {
   }
 
   #player-list li {
-    width: 100%;
+    width: 21rem;
     height: 15rem;
     display: flex;
     align-items: center;
@@ -479,7 +479,7 @@ input:hover {
   }
 
   #player-list li {
-    width: 100%;
+    width: 42rem;
     min-height: 6rem;
     display: flex;
     align-items: center;

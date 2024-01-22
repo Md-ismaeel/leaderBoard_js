@@ -146,8 +146,9 @@ input:hover {
   }
 
   h1 {
+    width: 16rem;
     margin-top: 10%;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     font-size: 2rem;
     text-align: center;
     font-weight: 500;
@@ -242,8 +243,9 @@ input:hover {
   }
 
   h1 {
+    width: 19rem;
     margin-top: 10%;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     font-size: 2rem;
     text-align: center;
     font-weight: 500;
@@ -337,8 +339,9 @@ input:hover {
   }
 
   h1 {
+    width: 21rem;
     margin-top: 10%;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     font-size: 2rem;
     text-align: center;
     font-weight: 500;
